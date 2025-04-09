@@ -1,0 +1,2 @@
+This is a buffered file write example.+
+It's more efficent than fileWriter 
