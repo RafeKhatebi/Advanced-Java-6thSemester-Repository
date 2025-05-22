@@ -1,4 +1,6 @@
-// Custom exception class
+// Custom exception class 
+// Write a program that throws a custom exception for invalid input (e.g.,negative salary).
+
 class InvalidSalaryException extends Exception {
     public InvalidSalaryException(String message) {
         super(message);

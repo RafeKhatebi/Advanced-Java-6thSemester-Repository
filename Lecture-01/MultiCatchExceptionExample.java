@@ -8,8 +8,7 @@ public class MultiCatchExceptionExample {
             System.err.println("Error ArithmeticException occured! ");
 
         } catch (Exception e) {
-            System.err.println("An unexpected error occurred: " + e.getMessage());
-
+            System.err.println("Error Exception occured! " + e.getMessage());
         }
         // Code after the try-catch block
         System.out.println("Program continues after exception handling");
@@ -17,4 +16,5 @@ public class MultiCatchExceptionExample {
 
     private static float division(int i, int j) {
         return i / j;
-    }}
+    }
+}

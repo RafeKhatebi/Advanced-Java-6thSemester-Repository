@@ -7,6 +7,7 @@ public class UserInputExample {
             System.out.println("Enter a number !");
             int i = sc.nextInt();
             System.out.println("You enterd " + i);
+            sc.close();
 
         } catch (java.util.InputMismatchException e) {
             System.err.println(" Error: Invalid input.Please Enter a Number");

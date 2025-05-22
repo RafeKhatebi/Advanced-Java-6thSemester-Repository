@@ -11,6 +11,7 @@ public class WritePrimitveData {
             dos.writeDouble(32.0);
             dos.writeChar(32);
             System.out.println("Data written to file.");
+            dos.close();
 
         } catch (IOException e) {
             System.out.println("Error while writing: " + e.getMessage());

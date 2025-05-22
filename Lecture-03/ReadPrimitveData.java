@@ -9,6 +9,7 @@ public class ReadPrimitveData {
             DataInputStream dis = new DataInputStream(new FileInputStream("stream.bin"));
             int a = dis.readInt();
             System.out.println("Numbers : " + a);
+            dis.close();
 
         } catch (IOException e) {
             e.printStackTrace();
